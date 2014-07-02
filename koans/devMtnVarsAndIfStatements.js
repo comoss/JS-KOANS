@@ -1,6 +1,6 @@
 describe("About variables and If Statments", function() {
   it("should create a variable called myFirstVariable and set it equal to 1", function() {
-    //code goes here.
+    var myFirstVariable = 1 ;
     expect(myFirstVariable).toBe(1);
   });
 
@@ -18,7 +18,7 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
   });
 
   it("should understand equality operators", function () {
@@ -35,9 +35,10 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('B');
 
-    //explain your answer here.
+    //Option 'B' gives the == equal so it does not care about where the input is a number or 
+    //text values it will compare them equally. it selects the first of the two options
   });
 
   it("should understand equality operators, again", function () {
@@ -54,23 +55,23 @@ describe("About variables and If Statments", function() {
       answer = 'D';
     }
 
-    expect(answer).toBe(FILL_ME_IN);
+    expect(answer).toBe('C');
 
-    //explain your answer here.
+    // the single = reassigns the variable to 12
   });
 
   it('should understand adding strings', function(){
     var num = '3';
-    expect(num + 8).toBe(FILL_ME_IN);
+    expect(num + 8).toBe('38');
 
-    //explain your answer here.
+    //since this is a string 8 is added onto the end of it. 
   });
 
   it('should understand adding strings, again', function(){
     var num = '1';
-    expect(num + FILL_ME_IN).toBe('18');
+    expect(num + 17).toBe('117');
 
-    //explain your answer here.
+    //this string also adds 17 onto the end of it making 117.
   });
 });
 
