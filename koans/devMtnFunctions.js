@@ -16,8 +16,8 @@ describe('About Functions', function(){
     var currentYearVar = currentYear() {
 
     }
-
     expect(currentYearVar).toBe(2014);
+    
   });
   it('should create a multiply function', function(){
     //Write a function called multiply that takes in two parametrs, multiplies them together, and returns the answer
